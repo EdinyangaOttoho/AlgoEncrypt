@@ -50,9 +50,9 @@ Where $string is a string-typed variable.
 
 #### algo_verify
   This is similar to the verify() method (function) in the Algo class, thus;
-'''php
+```php
   algo_verify($hash, $string);
-'''
+```
 Where $string is a string-typed variable and $hash is the hashed value to match/compare with for likeness. It returns true if matched properly, else returns false;
 
 ##Installation
