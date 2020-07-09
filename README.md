@@ -55,8 +55,8 @@ Where $string is a string-typed variable.
 ```
 Where $string is a string-typed variable and $hash is the hashed value to match/compare with for likeness. It returns true if matched properly, else returns false;
 
-##Installation
+## Installation
 Installation is very simple. Just clone this repository, and then include it in whichever script you want to use as shown above. Thanks
 
-##Contributors
+## Contributors
 Well, JsonQL was built wholly by me. You could buy me a cup of coffee. Contact me also via +2348117093601. I am a founding member and CEO of Fussion DEV (fussiondev@gmail.com)
