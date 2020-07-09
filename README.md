@@ -1,54 +1,54 @@
 # AlgoEncrypt
 An encryption tool that leverages base64 decode in encryption and decryption of data
 
-##Usage
+## Usage
 Simply include the src.php file in your script and then harness the various functions therein. AlgoEncrypt involves support for OOP and Procedural paradigms. To use OOP, simply create an instance of the class Algo, which has three methods. encrypt(), decrypt() and verify(). In the procedural paradigm, you use algo_hash() function and the algo_verfify function only.
 
 The first step is including the script in your project thus;
-'''php
+```php
   include("./AlgoEncrypt/src.php");
-'''
+```
 
-###OOP Paradigm
+### OOP Paradigm
   To use the OOP functions, you have to create an instance of the class thus;
-'''php
+```php
   $algo = new Algo();
-'''
+```
 Then, you use the methods of the class in encryption, verification and decryption.
 
-####Encrypt
+#### Encrypt
   To encrypt, use;
-'''php
+```php
   $algo->encrypt($string);
-'''
+```
 Where $string is a string-typed variable.
 
-####Decrypt
+#### Decrypt
   To encrypt, use;
-'''php
+```php
   $algo->decrypt($string);
-'''
+```
 Where $string is a string-typed hashed value (generated from AlgoEncrypt).
 
-####Verify
+#### Verify
   To verify a string to match with a hash, use;
-'''php
+```php
   $algo->verify($hash, $string);
-'''
+```
 Where $string is a string-typed variable and $hash is the hashed value to match/compare with for likeness. It returns true if matched properly, else returns false;
 
 
-###Procedural Paradigm
+### Procedural Paradigm
 There are two functions usable in the procedural technique (for those who hate OOP 😉😉), which are algo_hash() and algo_verify(). It still depends on the Algo() class by the way.
 
-####algo_hash
+#### algo_hash
   This is used to hash a string, thus;
-'''php
+```php
   algo_hash($string);
-'''
+```
 Where $string is a string-typed variable.
 
-####algo_hash
+#### algo_hash
   This is similar to the verify() method (function) in the Algo class, thus;
 '''php
   algo_verify($hash, $string);
