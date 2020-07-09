@@ -48,7 +48,7 @@ There are two functions usable in the procedural technique (for those who hate O
 ```
 Where $string is a string-typed variable.
 
-#### algo_hash
+#### algo_verify
   This is similar to the verify() method (function) in the Algo class, thus;
 '''php
   algo_verify($hash, $string);
